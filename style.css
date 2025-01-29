@@ -1,0 +1,107 @@
+body {
+    font-family: 'Times New Roman'; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f0e9;
+  }
+
+  header {
+    background-color: #05077d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #2a4fd3;
+  }
+
+  header nav {
+    margin-top: 10px;
+  }
+
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  header nav a:hover {
+    text-decoration: underline;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .sidebar {
+    width: 20%;
+    background-color: #030752;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: inset -3px 0 10px rgba(0, 0, 0, 0.3);
+    border-right: 5px solid #0226c5;
+  }
+
+  .sidebar h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .sidebar img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .sidebar p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+
+  .content {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 1px solid #ddd;
+  }
+
+  .content section {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #fdfaf4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .content .section-title {
+    text-align: center;
+    font-size: 28px;
+    color: #3e2723;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d7ccc8;
+    padding-bottom: 5px;
+  }
+
+  .content img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin: 10px 0;
+
+  }
+
+  footer {
+    background-color: #1c0579;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+  footer p {
+    margin: 0;
+  }
